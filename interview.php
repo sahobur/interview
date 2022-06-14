@@ -22,7 +22,6 @@ require_once 'functions/connect.php';
 
 
 if(!empty($_POST)){
-    print_r($_POST);
     foreach ($_POST["q"] as $k => $v){
         $current_q_id = $k;
         $q_id = $k;
